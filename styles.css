@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: lightgray;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    color: #FFF;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.tile {
+    border-width: 0px;
+    border-style: solid;
+    border-color: transparent;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+}
+
+.transition {
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+
+#container {
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
